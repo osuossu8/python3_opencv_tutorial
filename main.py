@@ -7,7 +7,7 @@ from keras.models import load_model
 
 app = Flask(__name__)
 
-@app.route("/hello")
+@app.route("/")
 def hello_world():
 
     #-- keras が起動出来ているか確認する --#
