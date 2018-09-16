@@ -11,8 +11,8 @@ app = Flask(__name__)
 def hello_world():
 
     #-- keras が起動出来ているか確認する --#
-    model = load_model('./shiogao_model2.h5')
-    print(model.summary())
+    #model = load_model('./shiogao_model2.h5')
+    #print(model.summary())
     #-----#
 
     return "hello world!"
